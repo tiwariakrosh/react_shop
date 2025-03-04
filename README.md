@@ -33,7 +33,7 @@ The project uses live API endpoints from dummyjson.com:
   - **Product list**
 
     - **Pagination**
-      - **Fetch All Products from:** `[https://dummyjson.com/products](https://dummyjson.com/products)`
+      - **Fetch All Products from:** [https://dummyjson.com/products](https://dummyjson.com/products)
       - **Each item should display:**
         - availabilityStatus
         - brand
@@ -49,7 +49,7 @@ The project uses live API endpoints from dummyjson.com:
   - **Product item**
 
     - **On item click:**
-      - Display product full details in the center of app as can be seen in the [API]([dummyjson.com](https://dummyjson.com/products/1)
+      - Display product full details in the center of app as can be seen in the [API](https://dummyjson.com/products/1)
       - Make sure to include review section with (dates, comment and rating)
 
 - **Deploy your react code in netlify.com for demo purposes.**

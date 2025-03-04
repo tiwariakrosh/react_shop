@@ -13,7 +13,7 @@ This project is a React application built with TypeScript that displays a list o
   - **Right Side:** Shows the product list.
 - **Routing:** Uses `react-router-dom` (v6) for navigation.
 - **Styling:** Basic CSS is included. Feel free to adjust or add styles to enhance the layout and responsiveness.
-- **Mobile Responsive**
+  - The application should be **Mobile Responsive**
 
 ---
 
@@ -28,32 +28,34 @@ The project uses live API endpoints from dummyjson.com:
 
 ## Test instructions
 
-- **You should implement components:**
+- You should implement components. Apply minimum css to make the page look good. 
 
-- **Product list**
+  - **Product list**
 
-  - **Pagination**
-  - **Fetch All Products from:** `https://dummyjson.com/products`
-  - **Each item should display:**
-    - availabilityStatus
-    - brand
-    - category
-    - minimumOrderQuantity
-    - price (before and after discount)
-    - rating
-    - stock
-    - thumbnail
-    - title
-    - minimum css required
+    - **Pagination**
+      - **Fetch All Products from:** `[https://dummyjson.com/products](https://dummyjson.com/products)`
+      - **Each item should display:**
+        - availabilityStatus
+        - brand
+        - category
+        - minimumOrderQuantity
+        - price (before and after discount)
+        - rating
+        - stock
+        - thumbnail
+        - title
+        
 
-- **Product item**
+  - **Product item**
 
-  - **On item click:** Display product full details in the center of app.
-  - **Review and Rating section** Make sure to include review section with (dates, comment and rating)
+    - **On item click:**
+      - Display product full details in the center of app as can be seen in the [API]([dummyjson.com](https://dummyjson.com/products/1)
+      - Make sure to include review section with (dates, comment and rating)
 
 - **Deploy your react code in netlify.com for demo purposes.**
-  - An issue might occur when you refresh the page once deploy on Netlify. Consider that issue as well while deploying.
-- **Make your repo public and share your repo.**
+  - An issue might occur when you refresh the product detail page once deployed on Netlify. Consider that issue as well while deploying.
+ 
+- **Make your repo public and share your repo through this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfpqEJL-Uz01ZIthyqB_VOhXXvrFNlZDizWkqNHFhanxyL90A/viewform).**
 
 ## **Bonus**
 

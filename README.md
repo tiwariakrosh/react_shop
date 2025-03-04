@@ -34,7 +34,17 @@ The project uses live API endpoints from dummyjson.com:
 
   - **Pagination**
   - **Fetch All Products from:** `https://dummyjson.com/products`
-  - **Each item should display:** availabilityStatus, brand, category, minimumOrderQuantity, price, rating, stock, thumbnail, title. minimum css required
+  - **Each item should display:**
+    - availabilityStatus
+    - brand
+    - category
+    - minimumOrderQuantity
+    - price (before and after discount)
+    - rating
+    - stock
+    - thumbnail
+    - title
+    - minimum css required
 
 - **Product item**
 

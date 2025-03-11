@@ -56,10 +56,3 @@ The project uses live API endpoints from dummyjson.com:
   - An issue might occur when you refresh the product detail page once deployed on Netlify. Consider that issue as well while deploying.
  
 - **Make your repo public and share your repo through this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfpqEJL-Uz01ZIthyqB_VOhXXvrFNlZDizWkqNHFhanxyL90A/viewform).**
-
-## **Bonus**
-
-- **Create filter:**
-  - no server side query needed
-  - filter should apply for all the products
-  - pagination should be updated based on the filtered result

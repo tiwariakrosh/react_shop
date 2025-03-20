@@ -1,27 +1,33 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ProductList from './components/ProductList';
-import ProductDetails from './components/ProductDetails';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductList from "./components/ProductList";
+import ProductDetails from "./components/ProductDetails";
+import "./App.css";
 
-const App: React.FC = () => {
-    return (
-        <Router>
-            <div style={{ display: 'flex', height: '100vh' }}>
-                {/* Left side: Product details (or placeholder) */}
-                <div style={{ flex: 1, overflowY: 'auto' }}>
-                    <Routes>
-                        <Route path="/product/:id" element={<ProductDetails />} />
-                        <Route path="*" element={<div style={{ padding: '20px' }}>Please select a product from the list.</div>} />
-                    </Routes>
-                </div>
-
-                {/* Right side: Product list */}
-                <div style={{ width: '300px', borderLeft: '1px solid #ccc', overflowY: 'auto', padding: '20px' }}>
-                    <ProductList />
-                </div>
-            </div>
-        </Router>
-    );
-};
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="app-container">
+        <div className="content-wrapper">
+          <div className="details-pane">
+            <Routes>
+              <Route
+                path="*"
+                element={
+                  <div className="placeholder">
+                    Select a product to view details
+                  </div>
+                }
+              />
+              <Route path="/product/:id" element={<ProductDetails />} />
+            </Routes>
+          </div>
+          <div className="list-pane">
+            <ProductList />
+          </div>
+        </div>
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default App;
